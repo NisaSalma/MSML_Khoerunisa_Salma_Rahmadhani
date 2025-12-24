@@ -1,6 +1,4 @@
-# SMSL_Khoerunisa_Salma_Rahmadhani
-
-# Proyek Akhir: Membangun Sistem Machine Learning (SMSML)
+# Proyek Akhir: Membangun Sistem Machine Learning (MSML)
 **Nama:** [Khoerunisa Salma Rahmadhani]  
 **Dataset:** [Ames Housing]
 
