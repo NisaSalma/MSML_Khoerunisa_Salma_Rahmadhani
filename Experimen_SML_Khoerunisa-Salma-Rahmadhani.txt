@@ -1,0 +1,80 @@
+EKSPERIMEN SISTEM MACHINE LEARNING (SML)
+
+Nama        : Khoerunisa Salma Rahmadhani
+Program     : Dicoding x Asah Bootcamp
+Peminatan   : Machine Learning
+Kriteria    : Eksperimen dan Preprocessing Data
+
+link repository GitHub
+https://github.com/NisaSalma/Experimen-SML/ 
+
+
+1. Deskripsi Proyek
+Proyek ini bertujuan untuk melakukan eksperimen awal dalam membangun sistem
+machine learning dengan menerapkan tahapan Exploratory Data Analysis (EDA)
+dan preprocessing data sebagai dasar untuk pembuatan pipeline machine learning
+yang terotomatisasi menggunakan datset prediksi harga rumah yang di dapat pada platform kaggle.
+
+Eksperimen ini dilakukan sebagai acuan utama sebelum proses preprocessing
+diotomatisasi menggunakan script Python.
+
+
+2. Deskripsi Dataset
+Nama Dataset  : Ames Housing Dataset  
+Sumber        : Kaggle  
+Tautan        : https://www.kaggle.com/datasets/prevek18/ames-housing-dataset  
+Jenis Data    : Structured / Tabular Data  
+
+Dataset ini berisi informasi karakteristik rumah di Ames, Iowa, yang digunakan
+untuk memprediksi harga rumah (SalePrice).
+
+
+3. Tahapan Eksplorasi Data (EDA)
+Pada tahap EDA, dilakukan beberapa proses untuk memahami karakteristik data,
+antara lain:
+
+- Melihat struktur data dan tipe fitur
+- Mengidentifikasi jumlah fitur numerik dan kategorikal
+- Mengidentifikasi nilai kosong (missing values)
+- Mengecek duplikasi data
+- Melakukan analisis awal terhadap distribusi data target (SalePrice)
+
+Hasil EDA menunjukkan bahwa dataset memiliki beberapa fitur tanpa nilai kosong
+serta fitur kategorikal yang perlu ditangani sebelum digunakan dalam pemodelan.
+
+
+4. Tahapan Data Preprocessing
+Berdasarkan hasil EDA, dilakukan tahapan preprocessing sebagai berikut:
+
+- Penanganan missing values:
+  - Fitur numerik diisi menggunakan nilai median
+  - Fitur kategorikal diisi menggunakan nilai modus
+- Penghapusan data duplikat
+- Encoding fitur kategorikal menggunakan One-Hot Encoding
+- Standarisasi fitur numerik menggunakan StandardScaler
+
+Tahapan preprocessing ini bertujuan untuk memastikan data siap digunakan
+dalam proses pelatihan model machine learning.
+
+
+5. Automasi Preprocessing
+Seluruh tahapan preprocessing yang telah ditentukan dari eksperimen notebook
+kemudian diimplementasikan ke dalam sebuah script Python untuk melakukan
+preprocessing secara otomatis.
+
+Script automasi preprocessing dijalankan secara lokal dan terintegrasi dengan
+GitHub Actions sehingga proses preprocessing dapat dijalankan secara otomatis
+ketika terjadi perubahan pada repository.
+
+
+6. Kesimpulan
+Eksperimen ini menghasilkan panduan preprocessing yang jelas dan terstruktur
+sebagai dasar dalam membangun pipeline machine learning. Dataset hasil
+preprocessing digunakan pada tahap selanjutnya, yaitu pembangunan dan
+evaluasi model machine learning.
+
+
+7. Catatan
+Dataset yang digunakan dalam proyek ini bersifat publik. Untuk penggunaan
+dataset privat di masa mendatang, data mentah tidak disertakan dalam repository
+dan hanya digunakan secara lokal.

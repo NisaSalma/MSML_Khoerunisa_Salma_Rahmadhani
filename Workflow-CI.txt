@@ -1,0 +1,24 @@
+=====================================
+PANDUAN PERINTAH TERMINAL - MLFLOW-CI
+=====================================
+ 
+link Github workflow = https://github.com/NisaSalma/Workflow-CI
+
+1. MENYIAPKAN ENVIRONMENT 
+# Membuat environment dari file conda.yaml
+conda env create -f MLProject/conda.yaml
+
+# Mengaktifkan environment
+conda activate <mlflow-env>
+
+2. MENJALANKAN MLFLOW SECARA LOKAL
+# Menjalankan seluruh pipeline MLProject
+mlflow run MLProject/
+
+# Menjalankan file modelling.py secara langsung
+python MLProject/modelling.py
+
+# Membuka UI MLflow untuk melihat hasil metrik/parameter
+mlflow ui --port 5000
+
+3. GITHUB ACTIONS (TESTING)
