@@ -5,7 +5,7 @@ Program     : Dicoding x Asah Bootcamp
 Peminatan   : Machine Learning
 Kriteria    : Eksperimen dan Preprocessing Data
 
-link repository GitHub
+link repository GitHub:
 https://github.com/NisaSalma/Experimen-SML/ 
 
 
@@ -77,4 +77,5 @@ evaluasi model machine learning.
 7. Catatan
 Dataset yang digunakan dalam proyek ini bersifat publik. Untuk penggunaan
 dataset privat di masa mendatang, data mentah tidak disertakan dalam repository
+
 dan hanya digunakan secara lokal.
